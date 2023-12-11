@@ -810,6 +810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 413972061703861606}
   - component: {fileID: 413972061692526386}
+  - component: {fileID: 1419595617}
   m_Layer: 0
   m_Name: SA_Animal_Horse_Black
   m_TagString: Untagged
@@ -923,6 +924,19 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: -0.8832464, z: 11.784651}
     m_Extent: {x: 5.571748, y: 18.315586, z: 21.710882}
   m_DirtyAABB: 0
+--- !u!65 &1419595617
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413972061704027728}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.143496, y: 36.631172, z: 43.421764}
+  m_Center: {x: 0, y: 18.315582, z: 4.3370876}
 --- !u!1 &413972061704030888
 GameObject:
   m_ObjectHideFlags: 0
@@ -1367,6 +1381,10 @@ GameObject:
   - component: {fileID: 413972061703777332}
   - component: {fileID: 413972061696693008}
   - component: {fileID: 413972063046126522}
+  - component: {fileID: 8530115823954385123}
+  - component: {fileID: 1094212812}
+  - component: {fileID: 1094212808}
+  - component: {fileID: 7320159397920951586}
   m_Layer: 0
   m_Name: Animal_Horse_Black
   m_TagString: Untagged
@@ -1426,6 +1444,56 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!65 &8530115823954385123
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413972061704059140}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 30.216856, y: 55.84413, z: 71.08771}
+  m_Center: {x: -9.142834, y: 22.743532, z: 6.1902514}
+--- !u!65 &1094212812
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413972061704059140}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1094212808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413972061704059140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ede7a8a659766d41b03754a6491718c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7320159397920951586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413972061704059140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a9edca125333c5468264864a974682c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &413972061704063932
 GameObject:
   m_ObjectHideFlags: 0
